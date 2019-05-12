@@ -3,7 +3,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class jpaExample {
+public class JpaExample {
     public static void main(String[] args) {
       EntityManagerFactory exampl = Persistence.createEntityManagerFactory("exampl");
      EntityManager entityManager = exampl.createEntityManager();
